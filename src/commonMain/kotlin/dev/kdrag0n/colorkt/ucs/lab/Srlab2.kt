@@ -16,6 +16,7 @@ import kotlin.math.cbrt
  *
  * @see <a href="https://www.magnetkern.de/srlab2.html">SRLAB2 – an alternative to CIE-L*a*b*</a>
  */
+@OptIn(kotlin.ExperimentalStdlibApi::class)
 public data class Srlab2(
     override val L: Double,
     override val a: Double,

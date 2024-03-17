@@ -18,6 +18,7 @@ import kotlin.math.cbrt
  *
  * @see <a href="https://bottosson.github.io/posts/oklab/">A perceptual color space for image processing</a>
  */
+@OptIn(kotlin.ExperimentalStdlibApi::class)
 public data class Oklab(
     override val L: Double,
     override val a: Double,

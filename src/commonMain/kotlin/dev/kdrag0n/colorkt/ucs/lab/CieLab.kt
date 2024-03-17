@@ -20,6 +20,7 @@ import kotlin.math.cbrt
  *
  * @see <a href="https://en.wikipedia.org/wiki/CIELAB_color_space">Wikipedia</a>
  */
+@OptIn(kotlin.ExperimentalStdlibApi::class)
 public data class CieLab @JvmOverloads constructor(
     override val L: Double,
     override val a: Double,

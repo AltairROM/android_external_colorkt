@@ -44,6 +44,7 @@ import kotlin.math.*
  * @see <a href="https://bottosson.github.io/posts/gamutclipping/">sRGB gamut clipping</a>
  */
 // Renaming variables hurts the readability of math code
+@OptIn(kotlin.ExperimentalStdlibApi::class)
 @Suppress("LocalVariableName")
 public object OklabGamut {
     private const val CLIP_EPSILON = 0.00001

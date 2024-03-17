@@ -23,6 +23,7 @@ import kotlin.math.*
  * @see <a href="https://www.osapublishing.org/oe/viewmedia.cfm?uri=oe-29-4-6036&html=true">ZCAM, a colour appearance model based on a high dynamic range uniform colour space</a>
  */
 // Math code looks better with underscores, and we want to match the paper
+@OptIn(kotlin.ExperimentalStdlibApi::class)
 @Suppress("LocalVariableName", "PrivatePropertyName", "PropertyName")
 public data class Zcam(
     // 1D
